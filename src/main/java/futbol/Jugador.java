@@ -14,7 +14,7 @@ public class Jugador extends Futbolista {
 
 	public Jugador() {
 		super();
-		golesMarcados = 289; 
+		golesMarcados = 289;
 		dorsal = 7;
 	}
 	public int compareTo(Futbolista obj) {return Math.abs(this.getEdad()-((Jugador)obj).getEdad());}
