@@ -1,4 +1,3 @@
-es (21 sloc)  850 Bytes
 package futbol;
 
 public abstract class Futbolista implements Comparable<Object>{
@@ -10,7 +9,7 @@ public Futbolista(String nombre, int edad, String posicion) {
 	this.nombre = nombre;
 	this.edad = edad;
 	this.posicion = posicion;
-} 
+}
 
 public Futbolista() { this("Maradona", 30, "delantero");}
 public String toString() {return "El futbolista " + this.nombre + " tiene " + this.edad + ", y juega de " + this.posicion;}
